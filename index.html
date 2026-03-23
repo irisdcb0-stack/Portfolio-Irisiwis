@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iris Del Carpio | Graphic Designer Portfolio</title>
+    <meta
+      name="description"
+      content="Portafolio profesional de Iris Del Carpio, diseñadora gráfica especializada en fotografía, modelado 3D y diseño editorial."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <aside class="side-nav">
+      <span class="side-nav__label">Portfolio</span>
+      <nav>
+        <a href="#hero" class="nav-link active" data-section="hero" aria-label="Inicio">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#about" class="nav-link" data-section="about" aria-label="Sobre mí">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <a href="#photography" class="nav-link" data-section="photography" aria-label="Fotografía">
+          <i class="fa-solid fa-camera-retro"></i>
+        </a>
+        <a href="#modeling" class="nav-link" data-section="modeling" aria-label="Modelado 3D">
+          <i class="fa-solid fa-cube"></i>
+        </a>
+        <a href="#editorial" class="nav-link" data-section="editorial" aria-label="Diseño editorial">
+          <i class="fa-regular fa-newspaper"></i>
+        </a>
+        <a href="#contact" class="nav-link" data-section="contact" aria-label="Contacto">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="hero" class="panel hero-panel" data-section="hero">
+        <div class="hero-panel__bg"></div>
+        <div class="panel-shell hero-grid">
+          <div class="hero-copy glass-card reveal">
+            <span class="eyebrow">Portfolio 2026</span>
+            <h1>Iris Del Carpio</h1>
+            <p class="hero-role">Graphic Designer</p>
+            <p class="hero-tags">Photography · 3D Artist · Editorial Design</p>
+            <p class="hero-text">
+              Una propuesta visual inmersiva donde la dirección artística, la
+              tecnología y la narrativa editorial convergen en experiencias memorables.
+            </p>
+            <div class="hero-actions">
+              <a href="#photography" class="btn btn--primary">Ver portafolio</a>
+              <button class="btn btn--ghost" id="downloadCv">Descargar CV</button>
+            </div>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="avatar-orbit">
+              <div class="avatar-orbit__ring avatar-orbit__ring--one"></div>
+              <div class="avatar-orbit__ring avatar-orbit__ring--two"></div>
+              <div class="avatar-frame glass-card">
+                <img
+                  src="https://drive.google.com/thumbnail?id=1tECfY0nRKOcBH8c4AuzGr3WNidYe_BtN&sz=w2000"
+                  alt="Retrato de Iris Del Carpio"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="panel" data-section="about">
+        <div class="panel-shell about-layout">
+          <div class="about-copy reveal">
+            <span class="eyebrow">About Me</span>
+            <h2>Visual storytelling con precisión estética y sensibilidad digital.</h2>
+            <p>
+              Soy una diseñadora gráfica apasionada por la fotografía, el modelado 3D
+              y el diseño editorial. Me enfoco en crear experiencias visuales
+              impactantes combinando arte, tecnología y narrativa visual.
+            </p>
+            <p>
+              A mis 24 años desarrollo piezas que equilibran composición, atmósfera
+              y claridad comunicativa, con una mirada contemporánea y detallista.
+            </p>
+
+            <div class="software-grid">
+              <article class="skill-card glass-card"><i class="fa-regular fa-image"></i><span>Photoshop</span></article>
+              <article class="skill-card glass-card"><i class="fa-solid fa-pen-ruler"></i><span>Illustrator</span></article>
+              <article class="skill-card glass-card"><i class="fa-regular fa-file-lines"></i><span>InDesign</span></article>
+              <article class="skill-card glass-card"><i class="fa-solid fa-film"></i><span>Premiere Pro</span></article>
+              <article class="skill-card glass-card"><i class="fa-brands fa-figma"></i><span>Figma</span></article>
+              <article class="skill-card glass-card"><i class="fa-solid fa-cube"></i><span>Blender</span></article>
+              <article class="skill-card glass-card"><i class="fa-solid fa-brush"></i><span>ZBrush</span></article>
+            </div>
+          </div>
+
+          <div class="about-visual reveal">
+            <div class="portrait-card glass-card">
+              <img
+                src="https://drive.google.com/thumbnail?id=1I1FDA5X9gKTEjdFMcGQmQGPuHzXYUDcl&sz=w2000"
+                alt="Retrato artístico de Iris Del Carpio"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="photography" class="panel" data-section="photography">
+        <div class="panel-shell section-stack">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Photography</span>
+            <h2>Series visuales con ritmo cinematográfico, luz editorial y atmósferas inmersivas.</h2>
+          </div>
+          <div class="photo-wheel reveal">
+            <div class="photo-track">
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Luz de Vigilia" data-subtitle="Retrato conceptual" data-image="https://drive.google.com/thumbnail?id=1LgdPgRsp48AcQkv3GVXeKIcnf6lS8ZzK&sz=w2000" data-description="Retrato cálido de atmósfera íntima construido a partir de una única fuente de luz y una escena cargada de silencio." data-process="La imagen trabaja la dirección de arte desde el contraste entre sombra profunda, gesto contenido y temperatura de color ámbar.">
+                <img src="https://drive.google.com/thumbnail?id=1LgdPgRsp48AcQkv3GVXeKIcnf6lS8ZzK&sz=w2000" alt="Proyecto Luz de Vigilia" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Horizonte Eléctrico" data-subtitle="Paisaje narrativo" data-image="https://drive.google.com/thumbnail?id=12h0rpj4l_-BsC4CIxxjxr3OSnk3UutVq&sz=w2000" data-description="Escena cinematográfica con motocicleta y atardecer tormentoso, enfocada en la escala del paisaje y la contemplación." data-process="Se desarrolló con una edición de contraste controlado para conservar dramatismo en nubes, silueta y línea de fuego del cielo.">
+                <img src="https://drive.google.com/thumbnail?id=12h0rpj4l_-BsC4CIxxjxr3OSnk3UutVq&sz=w2000" alt="Proyecto Horizonte Eléctrico" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Gesto Urbano" data-subtitle="Retrato documental" data-image="https://drive.google.com/thumbnail?id=1Jf6MnCliJtg34oVqX25P-rKGyWVZGsyu&sz=w2000" data-description="Retrato espontáneo con una energía cercana y expresiva dentro de un entorno cotidiano." data-process="La captura prioriza naturalidad, encuadre vertical y una edición sobria para mantener el peso del gesto y la actitud.">
+                <img src="https://drive.google.com/thumbnail?id=1Jf6MnCliJtg34oVqX25P-rKGyWVZGsyu&sz=w2000" alt="Proyecto Gesto Urbano" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Eje Central" data-subtitle="Street photography" data-image="https://drive.google.com/thumbnail?id=1AYGZBiODfqbpYEYeq940cByWIj-mcvwy&sz=w2000" data-description="Fotografía urbana con composición frontal, simetría arquitectónica y lectura limpia del espacio público." data-process="Se construyó desde la observación de líneas, fuga central y ritmo del entorno para obtener una pieza de estructura geométrica.">
+                <img src="https://drive.google.com/thumbnail?id=1AYGZBiODfqbpYEYeq940cByWIj-mcvwy&sz=w2000" alt="Proyecto Eje Central" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Reflejo Íntimo" data-subtitle="Fotografía conceptual" data-image="https://drive.google.com/thumbnail?id=1T_XJU2Y4FrR8zD8YB_NRpyGSiQRbCnSJ&sz=w2000" data-description="Escena introspectiva construida con espejo, vela y cuerpo en penumbra para explorar identidad y percepción." data-process="La imagen combina una puesta en escena mínima con exposición baja y un tratamiento visual deliberadamente atmosférico.">
+                <img src="https://drive.google.com/thumbnail?id=1T_XJU2Y4FrR8zD8YB_NRpyGSiQRbCnSJ&sz=w2000" alt="Proyecto Reflejo Íntimo" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Penumbra Roja" data-subtitle="Retrato experimental" data-image="https://drive.google.com/thumbnail?id=1r8mIhy9dbXWeL3EbX3SI8dWmnEUQ-QMU&sz=w2000" data-description="Estudio visual de baja luz con una estética cruda, íntima y dramática sostenida por iluminación mínima." data-process="Se apostó por una lectura casi monocromática y un encuadre cerrado para enfatizar misterio, textura y emoción.">
+                <img src="https://drive.google.com/thumbnail?id=1r8mIhy9dbXWeL3EbX3SI8dWmnEUQ-QMU&sz=w2000" alt="Proyecto Penumbra Roja" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Impacto Líquido" data-subtitle="Fotografía experimental" data-image="https://drive.google.com/thumbnail?id=108cICD5vEgj3BysSjhdBJ5dl0vZ8518q&sz=w2000" data-description="Estudio de salpicaduras y luz ultravioleta para crear una pieza abstracta con alta tensión visual." data-process="La toma se trabajó con fondo oscuro, sincronía de disparo y control manual de iluminación para congelar el movimiento del agua.">
+                <img src="https://drive.google.com/thumbnail?id=108cICD5vEgj3BysSjhdBJ5dl0vZ8518q&sz=w2000" alt="Proyecto Impacto Líquido" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Neón Fluido" data-subtitle="Fotografía de splash" data-image="https://drive.google.com/thumbnail?id=1lGF7Weq8choN7WJTuNd_KgmFrj5QxaW0&sz=w2000" data-description="Composición fotográfica centrada en la transparencia, el volumen y la refracción bajo iluminación magenta." data-process="Se exploró velocidad alta de obturación, dirección de luz puntual y corrección de color para resaltar reflejos y texturas.">
+                <img src="https://drive.google.com/thumbnail?id=1lGF7Weq8choN7WJTuNd_KgmFrj5QxaW0&sz=w2000" alt="Proyecto Neón Fluido" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Materia Suspendida" data-subtitle="Fotografía de alta velocidad" data-image="https://drive.google.com/thumbnail?id=1HwZ3A6EkLhVQ6zBV24kH62z-YiY31Qik&sz=w2000" data-description="Captura de formas orgánicas en el instante exacto del impacto, con una atmósfera dramática y silenciosa." data-process="El proceso combinó experimentación con fluidos, dirección de contraste y una composición minimalista para dar protagonismo al gesto de la materia.">
+                <img src="https://drive.google.com/thumbnail?id=1HwZ3A6EkLhVQ6zBV24kH62z-YiY31Qik&sz=w2000" alt="Proyecto Materia Suspendida" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Retrato en Movimiento" data-subtitle="Fotografía narrativa" data-image="https://drive.google.com/thumbnail?id=1WSarGqrMywJUBjuQ9p6pqjVxveRvqo_j&sz=w2000" data-description="Retrato con energía documental y enfoque humano, pensado para capturar actitud, espontaneidad y presencia." data-process="La pieza se construye desde una proximidad natural al sujeto, con profundidad suave y corrección cromática discreta.">
+                <img src="https://drive.google.com/thumbnail?id=1WSarGqrMywJUBjuQ9p6pqjVxveRvqo_j&sz=w2000" alt="Proyecto Retrato en Movimiento" />
+              </button>
+              <button class="media-card media-card--photo glass-card" data-type="photo" data-title="Memoria Urbana" data-subtitle="Street photography" data-image="https://drive.google.com/thumbnail?id=1Nz4820jd3GHsU6a_ZRvM8LnkoOkbPQEZ&sz=w2000" data-description="Retrato documental en blanco y negro con foco en expresión, textura y narrativa cotidiana." data-process="Se priorizó el encuadre cercano y la lectura emocional del rostro, manteniendo una edición sobria y honesta.">
+                <img src="https://drive.google.com/thumbnail?id=1Nz4820jd3GHsU6a_ZRvM8LnkoOkbPQEZ&sz=w2000" alt="Proyecto Memoria Urbana" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="modeling" class="panel" data-section="modeling">
+        <div class="three-background" id="threeScene"></div>
+        <div class="panel-shell section-stack modeling-shell">
+          <div class="section-heading reveal">
+            <span class="eyebrow">3D Modeling</span>
+            <h2>Objetos y escenas digitales con acabados pulidos, profundidad material y presencia de esculpido .</h2>
+          </div>
+
+          <div class="model-grid">
+            <button class="model-card glass-card reveal" data-type="model" data-title="Character Pose Study" data-subtitle="Render principal" data-image="https://drive.google.com/thumbnail?id=1RfqmFQ3wolAF3eKPbljHTQImwaytJClk&sz=w2000" data-secondary="https://drive.google.com/thumbnail?id=1HxtIol5g41EJkjYcSUWK3P1BF85A3n57&sz=w2000" data-description="Personaje estilizado iluminado con tonos cian y magenta en una escena de atmósfera cyber elegante." data-process="El desarrollo pasó por diseño del personaje, posing, composición escenográfica y refinamiento de materiales para el render final.">
+              <span class="model-card__tag">Render + Variación</span>
+              <h3>Character Pose Study</h3>
+              <p>Exploración de pose, silueta y luz en un personaje 3D estilizado.</p>
+            </button>
+            <button class="model-card glass-card reveal" data-type="model" data-title="Dual Creature Scene" data-subtitle="Composición 3D" data-image="https://drive.google.com/thumbnail?id=1Aro8XBR0qW8EjWVv2g_al98WZiW34doM&sz=w2000" data-secondary="https://drive.google.com/thumbnail?id=1B5sJiMjDxfhJFtlBu4jI96hSrpE1plsi&sz=w2000" data-description="Escena que contrapone un personaje cartoon y una criatura orgánica en pedestales iluminados con estética sci-fi." data-process="Se trabajó modelado, texturizado e integración escénica; el segundo visual muestra el detalle escultórico de la criatura antes del render final.">
+              <span class="model-card__tag">Escena + Wireframe</span>
+              <h3>Dual Creature Scene</h3>
+              <p>Contraste entre volumen escultórico, color y presentación escenográfica.</p>
+            </button>
+            <button class="model-card glass-card reveal" data-type="model" data-title="Narrative Stage" data-subtitle="Composición ambiental" data-image="https://drive.google.com/thumbnail?id=1ziv1EYpyqwWfky_7KCyC9Iuw6BQdstge&sz=w2000" data-secondary="https://drive.google.com/thumbnail?id=17gSNb8NVlI_nxLxJiwNHK4xnrxe9h-W-&sz=w2000" data-description="Construcción de una escena narrativa con pedestales, personajes y criatura central en un entorno de fuerte dirección artística." data-process="La pieza integró layout escénico, luces cromáticas y pruebas de cámara para reforzar profundidad y narrativa visual.">
+              <span class="model-card__tag">Environment</span>
+              <h3>Narrative Stage</h3>
+              <p>Montaje visual con lectura cinematográfica y composición por capas.</p>
+            </button>
+          </div>
+
+          <div class="flipbook-preview glass-card reveal">
+            <div class="flipbook-embed">
+              <iframe
+                src="https://heyzine.com/flip-book/284da631c2.html"
+                title="Flipbook catálogo de modelado 3D"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="flipbook-actions">
+              <a class="btn btn--primary" href="https://heyzine.com/flip-book/284da631c2.html" target="_blank" rel="noreferrer">Abrir catálogo 3D</a>
+              <a class="btn btn--ghost" href="https://drive.google.com/file/d/1GAVuvzuol62h_dNibPBLIeYCBsKPVhL1/view?usp=drive_web" target="_blank" rel="noreferrer">Ver PDF 3D</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="editorial" class="panel" data-section="editorial">
+        <div class="panel-shell section-stack">
+          <div class="section-heading reveal">
+            <span class="eyebrow">Editorial Design</span>
+            <h2>Maquetación editorial con jerarquía clara, ritmo visual y una estética contemporánea de revista.</h2>
+          </div>
+
+          <div class="editorial-grid">
+            <button class="editorial-card glass-card reveal" data-type="editorial" data-title="IA, Cultura y Ética" data-subtitle="Fanzine editorial" data-image="https://drive.google.com/thumbnail?id=1Ea1bXasvxekazcXroMWiXXChGtaMVMhb&sz=w2000" data-description="Fanzine visual que cruza inteligencia artificial, cultura y ética con una propuesta estética intensa y futurista." data-process="Se construyó una narrativa editorial apoyada en retícula dinámica, visuales cyber y jerarquías tipográficas de fuerte contraste.">
+              <img src="https://drive.google.com/thumbnail?id=1Ea1bXasvxekazcXroMWiXXChGtaMVMhb&sz=w2000" alt="Proyecto editorial IA, Cultura y Ética" />
+              <div class="editorial-card__body">
+                <h3>IA, Cultura y Ética</h3>
+                <p>Composición editorial y narrativa visual principal.</p>
+              </div>
+            </button>
+            <button class="editorial-card glass-card reveal" data-type="editorial" data-title="Mockup Editorial" data-subtitle="Presentación de pieza" data-image="https://drive.google.com/thumbnail?id=1mVglJ8z-VyP53Fm9J4JpU1aC62o8qWcX&sz=w2000" data-description="Aplicación del sistema editorial en mockups para mostrar escalabilidad, legibilidad y coherencia de marca." data-process="La fase de presentación integró mockups editoriales y piezas promocionales para reforzar la identidad del proyecto.">
+              <img src="https://drive.google.com/thumbnail?id=1mVglJ8z-VyP53Fm9J4JpU1aC62o8qWcX&sz=w2000" alt="Mockup editorial" />
+              <div class="editorial-card__body">
+                <h3>Mockup Editorial</h3>
+                <p>Visualización del sistema gráfico aplicado en soportes reales.</p>
+              </div>
+            </button>
+            <button class="editorial-card glass-card reveal" data-type="editorial" data-title="Encuentro entre lo humano y lo programado" data-subtitle="Poster editorial" data-image="https://drive.google.com/thumbnail?id=116dtwYp8rw6yuXdOL6UEfFHOw0Oj5iOc&sz=w2000" data-description="Poster conceptual que extiende el universo del fanzine con una composición vertical fuerte y estética tecno-humanista." data-process="Se trabajó contraste, textura y balance entre figura clásica y elementos digitales para reforzar el concepto central.">
+              <img src="https://drive.google.com/thumbnail?id=116dtwYp8rw6yuXdOL6UEfFHOw0Oj5iOc&sz=w2000" alt="Poster editorial" />
+              <div class="editorial-card__body">
+                <h3>Poster Editorial</h3>
+                <p>Extensión visual del proyecto en formato promocional.</p>
+              </div>
+            </button>
+            <button class="editorial-card glass-card reveal" data-type="editorial" data-title="Street Mockup Campaign" data-subtitle="Publicidad editorial" data-image="https://drive.google.com/thumbnail?id=1J6iRHa6RnwNNIa3Rxe3JHQJQ57AlS2TO&sz=w2000" data-description="Aplicación del arte editorial en un contexto urbano para comunicar el proyecto con impacto visual y presencia pública." data-process="Se diseñó una versión adaptable a campaña exterior, cuidando escala, lectura a distancia y fuerza gráfica.">
+              <img src="https://drive.google.com/thumbnail?id=1J6iRHa6RnwNNIa3Rxe3JHQJQ57AlS2TO&sz=w2000" alt="Campaña editorial en mockup urbano" />
+              <div class="editorial-card__body">
+                <h3>Street Mockup</h3>
+                <p>Adaptación del concepto editorial a formato de campaña.</p>
+              </div>
+            </button>
+            <button class="editorial-card glass-card reveal" data-type="editorial" data-title="Post para Instagram" data-subtitle="Contenido digital" data-image="https://drive.google.com/thumbnail?id=1CAPOcBbjKYV4lFnJcF8ckUJsi31R6D-a&sz=w2000" data-description="Pieza para redes sociales derivada del proyecto editorial, pensada para continuidad visual y difusión digital." data-process="Se ajustó el lenguaje de la identidad a un formato cuadrado, manteniendo tensión visual, mensaje y coherencia gráfica.">
+              <img src="https://drive.google.com/thumbnail?id=1CAPOcBbjKYV4lFnJcF8ckUJsi31R6D-a&sz=w2000" alt="Post de Instagram editorial" />
+              <div class="editorial-card__body">
+                <h3>Post Instagram</h3>
+                <p>Versión social media conectada con la campaña editorial.</p>
+              </div>
+            </button>
+          </div>
+
+          <div class="flipbook-preview glass-card reveal">
+            <div class="flipbook-embed">
+              <iframe
+                src="https://heyzine.com/flip-book/eb0fef0bd8.html"
+                title="Flipbook IA, Cultura y Ética"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="flipbook-actions">
+              <a class="btn btn--primary" href="https://heyzine.com/flip-book/eb0fef0bd8.html" target="_blank" rel="noreferrer">Abrir flipbook</a>
+              <a class="btn btn--ghost" href="https://drive.google.com/file/d/1rwe_jIVDjNpFaHt4ibUZmwddPX5fQLpB/view?usp=drive_web" target="_blank" rel="noreferrer">Ver PDF</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel" data-section="contact">
+        <div class="panel-shell contact-layout">
+          <div class="contact-copy reveal">
+            <span class="eyebrow">Contact</span>
+            <h2>Gracias por visitar mi portafolio</h2>
+            <p>Si deseas colaborar en un proyecto creativo, no dudes en contactarme.</p>
+            <a class="btn btn--primary" href="mailto:irisdcb0@gmail.com">Contactar</a>
+          </div>
+
+          <div class="contact-visual reveal">
+            <div class="cube-scene">
+              <div class="cube">
+                <div class="cube__face cube__face--front">IRIS</div>
+                <div class="cube__face cube__face--back">3D</div>
+                <div class="cube__face cube__face--right">ART</div>
+                <div class="cube__face cube__face--left">UX</div>
+                <div class="cube__face cube__face--top">DESIGN</div>
+                <div class="cube__face cube__face--bottom">PHOTO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="recommendations" class="panel panel--compact" data-section="contact">
+        <div class="panel-shell endorsement-layout">
+          <div class="endorsement-column glass-card reveal">
+            <span class="eyebrow">Recomendaciones</span>
+            <h2>Lo que destacan sobre su trabajo</h2>
+            <div class="testimonial-list">
+              <article class="testimonial-card">
+                <p>
+                  "Iris tiene una sensibilidad visual muy poco común. Aporta ideas sólidas,
+                  ejecuta con detalle y siempre entrega piezas que elevan la identidad del proyecto."
+                </p>
+                <strong>María Fernanda Rojas</strong>
+                <span>Directora Creativa, Estudio Nébula</span>
+              </article>
+              <article class="testimonial-card">
+                <p>
+                  "Su capacidad para combinar fotografía, diseño y 3D hizo que nuestra campaña
+                  tuviera una presencia mucho más contemporánea y memorable."
+                </p>
+                <strong>Diego Salvatierra</strong>
+                <span>Brand Lead, Axis Lab</span>
+              </article>
+              <article class="testimonial-card">
+                <p>
+                  "Trabajar con Iris fue sinónimo de criterio estético, buena comunicación
+                  y una ejecución visual impecable desde el concepto hasta la entrega final."
+                </p>
+                <strong>Camila Ortega</strong>
+                <span>Editora de Arte, Prisma Editorial</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hire-column glass-card reveal">
+            <span class="eyebrow">Trabajemos Juntos</span>
+            <h2>¿Buscas una diseñadora para tu próximo proyecto?</h2>
+            <p>
+              Iris desarrolla propuestas visuales para marcas, campañas, proyectos editoriales,
+              dirección de arte, fotografía conceptual y presentaciones 3D con enfoque profesional.
+            </p>
+            <div class="hire-points">
+              <span>Branding visual</span>
+              <span>Fotografía conceptual</span>
+              <span>Modelado y renders 3D</span>
+              <span>Diseño editorial</span>
+            </div>
+            <div class="hire-actions">
+              <a class="btn btn--primary" href="mailto:irisdcb0@gmail.com">Contactar para trabajo</a>
+              <a class="btn btn--ghost" href="https://www.instagram.com/i._taking_photos?igsh=ZzNuYXJnbmk3ZXM=" target="_blank" rel="noreferrer">Ver Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-shell glass-card">
+        <div class="footer-copy">
+          <span class="eyebrow">Connect</span>
+          <h3>Iris Del Carpio</h3>
+          <p>Diseño visual, fotografía, modelado 3D y proyectos editoriales con una dirección artística contemporánea, sensible y experimental.</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/i._taking_photos?igsh=ZzNuYXJnbmk3ZXM=" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer" aria-label="Behance" class="is-placeholder">
+            <i class="fa-brands fa-behance"></i>
+            <span>Behance</span>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn" class="is-placeholder">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://www.artstation.com/" target="_blank" rel="noreferrer" aria-label="Artstation" class="is-placeholder">
+            <i class="fa-brands fa-artstation"></i>
+            <span>Artstation</span>
+          </a>
+          <a href="mailto:irisdcb0@gmail.com" aria-label="Email">
+            <i class="fa-regular fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" id="projectModal" aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__panel glass-card">
+        <button class="modal__close" data-close-modal aria-label="Cerrar modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="modal__media">
+          <img id="modalImage" src="" alt="" />
+          <img id="modalSecondaryImage" src="" alt="" class="secondary-media hidden" />
+        </div>
+        <div class="modal__content">
+          <span id="modalSubtitle" class="eyebrow"></span>
+          <h3 id="modalTitle"></h3>
+          <p id="modalDescription"></p>
+          <p id="modalProcess"></p>
+          <div class="modal__flipbook hidden" id="modalFlipbook">
+            <div class="modal__page">Cover Story</div>
+            <div class="modal__page">Grid System</div>
+            <div class="modal__page">Editorial Flow</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
