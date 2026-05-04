@@ -290,3 +290,4 @@ function initThreeScene() {
 
 buildInfiniteTrack();
 initThreeScene();
+
